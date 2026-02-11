@@ -1,0 +1,10 @@
+Variable,M1 (R&D),M2 (Patents),M3 (Hitech),M4 (Researchers),M5 (GDP),M6 (R&D+GDP),M7 (Pat+GDP),M8 (Res+GDP),M9 (Full)
+R&D (% GDP),3.75*** (<0.001),—,—,—,—,-1.44 (0.24),—,—,-0.54 (0.78)
+Patents/million,—,2.93* (0.010),—,—,—,—,-1.19 (0.20),—,-1.01 (0.51)
+Hightech exports,—,—,1.63 (0.19),—,—,—,—,—,-0.11 (0.91)
+Researchers/million,—,—,—,4.44*** (<0.001),—,—,—,-1.27 (0.37),—
+log(GDP/cap),—,—,—,—,6.42*** (<0.001),7.55*** (<0.001),7.15*** (<0.001),7.55*** (<0.001),7.65*** (<0.001)
+R²,0.182,0.114,0.037,0.247,0.536,0.547,0.573,0.557,0.517
+N,665,630,465,621,682,665,630,621,430
+Period,2000-2021,2000-2021,2000-2021,2000-2021,2000-2021,2000-2021,2000-2021,2000-2021,2000-2021
+Notes,Standardised coefficients. Pooled OLS with cluster-robust standard errors clustered by country. P-values in parentheses. Researchers excluded from M9 due to collinearity with R&D.,,,,,,,,
