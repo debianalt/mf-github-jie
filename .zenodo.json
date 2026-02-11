@@ -1,0 +1,28 @@
+{
+    "title": "Does Technology Drive Dematerialisation? Software Complexity, Income, and Material Footprint across EU-27 and MERCOSUR-4 \u2014 Replication Materials",
+    "creators": [
+        {
+            "name": "G\u00f3mez, Raimundo El\u00edas",
+            "orcid": "0000-0002-4468-9618",
+            "affiliation": "National Scientific and Technical Research Council (CONICET), Argentina; Institute of Sociology, University of Porto, Portugal"
+        }
+    ],
+    "description": "Replication materials (data, analysis scripts, and figures) for the article submitted to the Journal of Industrial Ecology (JIE). Includes Material Footprint data, GitHub Innovation Graph indicators, Sequence Analysis of decoupling trajectories (2000\u20132024), and panel regression models (2000\u20132021) for 31 countries (EU-27 and MERCOSUR-4).",
+    "keywords": [
+        "Material Footprint",
+        "software complexity",
+        "GitHub Innovation Graph",
+        "EU-MERCOSUR",
+        "Sequence Analysis",
+        "decoupling"
+    ],
+    "license": "MIT",
+    "upload_type": "software",
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/debianalt/mf-github-jie",
+            "relation": "isSupplementTo",
+            "scheme": "url"
+        }
+    ]
+}
