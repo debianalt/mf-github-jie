@@ -147,13 +147,13 @@ MERCOSUR members are distributed across three of four clusters: Brazil and Parag
 
 ## References
 
-Abbott, A. (1995). Sequence analysis: New methods for old ideas. *Annual Review of Sociology*, 21, 93-113.
+Abbott, A. (1995). Sequence analysis: New methods for old ideas. *Annual Review of Sociology*, 21, 93-113. https://doi.org/10.1146/annurev.so.21.080195.000521
 
-Tapio, P. (2005). Towards a theory of decoupling: Degrees of decoupling in the EU and the case of road traffic in Finland between 1970 and 2001. *Transport Policy*, 12(2), 137-151.
+Tapio, P. (2005). Towards a theory of decoupling: Degrees of decoupling in the EU and the case of road traffic in Finland between 1970 and 2001. *Transport Policy*, 12(2), 137-151. https://doi.org/10.1016/j.tranpol.2005.01.001
 
-Hidalgo, C. A., & Hausmann, R. (2009). The building blocks of economic complexity. *Proceedings of the National Academy of Sciences*, 106(26), 10570-10575.
+Hidalgo, C. A., & Hausmann, R. (2009). The building blocks of economic complexity. *Proceedings of the National Academy of Sciences*, 106(26), 10570-10575. https://doi.org/10.1073/pnas.0900943106
 
-Juhász, S., Wachs, J., Kaminski, J., & Hidalgo, C. A. (2026). The software complexity of nations. *Research Policy*, 55, 105422.
+Juhász, S., Wachs, J., Kaminski, J., & Hidalgo, C. A. (2026). The software complexity of nations. *Research Policy*, 55, 105422. https://doi.org/10.1016/j.respol.2026.105422
 
 ## License
 
@@ -167,3 +167,5 @@ If you use these materials, please cite:
 Gomez, R. E. (2026). Does Technology Drive Dematerialisation? Software Complexity,
 Income, and Material Footprint across EU-27 and MERCOSUR-4. Journal of Industrial Ecology.
 ```
+
+**Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18612284.svg)](https://doi.org/10.5281/zenodo.18612284)
