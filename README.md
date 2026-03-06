@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains replication materials and supplementary data for the research "Does Technology Drive Dematerialisation? Software Complexity, Income, and Material Footprint across EU-27 and MERCOSUR-4" submitted to the Journal of Industrial Ecology.
+This repository contains replication materials and supplementary data for the research "Does Technology Drive Dematerialisation? Software Complexity, Income, and Material Footprint across EU-27 and MERCOSUR-4".
 
 **Author:** Raimundo Elias Gomez
 **Affiliations:** CONICET / National University of Misiones (Argentina); Institute of Sociology, University of Porto (Portugal)
