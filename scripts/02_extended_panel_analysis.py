@@ -322,8 +322,9 @@ print("""
 
   CONCLUSION:
   The apparent relationship between technological specialisation and lower
-  material intensity is a statistical artefact of income effects and
-  international trade patterns (externalisation), not genuine decoupling.
+  material intensity is not independent of income under the present
+  specification, consistent with confounding by affluence rather than
+  genuine decoupling.
 """)
 
 # Save results
