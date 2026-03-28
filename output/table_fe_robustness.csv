@@ -1,0 +1,11 @@
+Model,N,R2_within,B_RD_pct_GDP,p_RD_pct_GDP,B_Patents_per_million,p_Patents_per_million,B_Hightech_exports_pct,p_Hightech_exports_pct,B_Researchers_per_million,p_Researchers_per_million,B_log_GDP_pc,p_log_GDP_pc
+FE_R&D,665,0.0427,-3.028,0.0273,,,,,,,,
+FE_Patents,630,0.002,,,0.749,0.4542,,,,,,
+FE_Hightech,465,0.0423,,,,,1.93,0.1469,,,,
+FE_Researchers,621,0.0267,,,,,,,-1.726,0.0526,,
+FE_R&D_GDP,665,0.1498,-4.92,0.0001,,,,,,,6.873,0.0012
+FE_Patents_GDP,630,0.1029,,,1.249,0.2157,,,,,5.872,0.0
+FE_Hightech_GDP,465,0.0574,,,,,1.892,0.1481,,,3.523,0.309
+FE_Researchers_GDP,621,0.1817,,,,,,,-4.171,0.0001,8.625,0.0
+FE_GDP,682,0.0524,,,,,,,,,4.441,0.0223
+FE_Full,430,0.1375,-4.444,0.001,0.944,0.648,2.021,0.0887,,,6.618,0.0509
