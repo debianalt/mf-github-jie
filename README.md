@@ -23,11 +23,20 @@ subirGH/
 ├── scripts/                 # Analysis scripts (Python)
 │   ├── 01_sequence_analysis.py     # Sequence Analysis + cross-sectional figures
 │   ├── 02_extended_panel_analysis.py   # Extended panel regressions (2000-2021)
-│   └── 03_extended_figures.py      # Extended analysis figures
+│   ├── 03_extended_figures.py      # Extended analysis figures
+│   ├── 12_fe_robustness.py         # Fixed-effects specifications (Table 3)
+│   ├── 13_variance_decomposition.py    # Between/within variance decomposition (Table S1)
+│   ├── 14_fe_mde.py                # Fixed effects with SE and minimum detectable effects (Table 3, revised)
+│   └── 15_kw_power_composition.py  # Kruskal-Wallis power simulation + cluster income composition (Tables S2-S3)
 ├── output/                  # Regression tables (CSV)
 │   ├── table1_descriptive_stats.csv    # Table 1: Descriptive statistics by bloc (2024)
 │   ├── table2_eci_regressions.csv      # Table 2 Panel A: ECIsoftware regressions (2020-2024, pre-computed)
-│   └── table3_extended_regressions.csv # Table 2 Panel B: Extended panel regressions (2000-2021)
+│   ├── table3_extended_regressions.csv # Table 2 Panel B: Extended panel regressions (2000-2021)
+│   ├── table_fe_robustness.csv         # Table 3: Fixed-effects specifications
+│   ├── table_fe_robustness_mde.csv     # Table 3 (revised): adds SE and MDE at 80% power
+│   ├── table_s1_variance_decomposition.csv # Table S1: Variance decomposition
+│   ├── table_s2_kw_power.csv           # Table S2: Kruskal-Wallis power simulation
+│   └── table_s3_cluster_income.csv     # Table S3: GDP per capita by trajectory cluster
 ├── figures/                 # All figures (article + supplementary)
 ├── CODEBOOK.md              # Variable definitions
 ├── requirements.txt         # Python dependencies
@@ -92,7 +101,21 @@ python scripts/02_extended_panel_analysis.py
 
 # 3. Extended analysis figures
 python scripts/03_extended_figures.py
+
+# 4. Fixed-effects specifications (Table 3)
+python scripts/12_fe_robustness.py
+
+# 5. Variance decomposition (Table S1)
+python scripts/13_variance_decomposition.py
+
+# 6. Fixed effects with standard errors and minimum detectable effects (Table 3, revised)
+python scripts/14_fe_mde.py
+
+# 7. Kruskal-Wallis power simulation and cluster income composition (Tables S2-S3)
+python scripts/15_kw_power_composition.py
 ```
+
+Scripts 12-15 resolve paths relative to the repository root and can be run from any working directory.
 
 ### Expected Outputs
 
@@ -136,6 +159,15 @@ MERCOSUR members are distributed across three of four clusters: Brazil and Parag
 | Figure 6 | `fig_technology_by_cluster.png` | Technology indicators by trajectory cluster |
 | **Figure S1** | `fig_extended_temporal.png` | **Supplementary: EU-27 vs MERCOSUR-4 temporal trends (2000-2021)** |
 | **Figure S2** | `fig4_transitions_by_bloc_en.png` | **Supplementary: State transition probabilities by bloc** |
+
+## Supplementary Table Mapping
+
+| Article Table | File | Script | Description |
+|---------------|------|--------|-------------|
+| Table 3 | `output/table_fe_robustness_mde.csv` | `14_fe_mde.py` | Fixed-effects specifications with SE and MDE at 80% power |
+| Table S1 | `output/table_s1_variance_decomposition.csv` | `13_variance_decomposition.py` | Between/within variance decomposition (2000-2021) |
+| Table S2 | `output/table_s2_kw_power.csv` | `15_kw_power_composition.py` | Simulated power of the Kruskal-Wallis test, cluster sizes 8/7/3/13 |
+| Table S3 | `output/table_s3_cluster_income.csv` | `15_kw_power_composition.py` | GDP per capita by trajectory cluster (2000-2021 mean) |
 
 ## Key Results
 

@@ -1,0 +1,5 @@
+Cluster,n,GDPpc_mean,GDPpc_min,Min_country,GDPpc_max,Max_country,Ratio_max_min
+Cluster 1 (Progressive),8,30456,5068,PY,55798,IE,11.0
+Cluster 2 (Stable),7,21366,11646,HR,37569,FR,3.2
+Cluster 3 (Atypical),3,24203,13334,AR,43238,FI,3.2
+Cluster 4 (Convergence),13,27630,6208,BG,103991,LU,16.8

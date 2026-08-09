@@ -1,0 +1,7 @@
+Variable,SD_total,SD_between,SD_within,SD_twoway_demeaned,Within_share_pct,N,Countries
+R&D expenditure (% GDP),0.899,0.884,0.25,0.197,27.8,665,31
+Patents per million,129.458,125.444,29.681,28.608,22.9,630,31
+High-tech exports (%),7.98,7.434,3.175,3.141,39.8,465,31
+Researchers per million,1857.151,1804.938,706.179,440.061,38.0,621,30
+log GDP per capita,0.737,0.731,0.156,0.101,21.1,682,31
+Material Footprint per capita,8.765,7.871,4.097,3.763,46.7,682,31

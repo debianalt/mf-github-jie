@@ -1,0 +1,9 @@
+Shift_SD,Scenario,Power
+0.5,n=3 cluster differs,0.066
+0.5,n=13 cluster differs,0.136
+1.0,n=3 cluster differs,0.152
+1.0,n=13 cluster differs,0.52
+1.5,n=3 cluster differs,0.291
+1.5,n=13 cluster differs,0.896
+2.0,n=3 cluster differs,0.472
+2.0,n=13 cluster differs,0.995

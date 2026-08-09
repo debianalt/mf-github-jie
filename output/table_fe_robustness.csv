@@ -1,11 +1,17 @@
-Model,N,R2_within,B_RD_pct_GDP,p_RD_pct_GDP,B_Patents_per_million,p_Patents_per_million,B_Hightech_exports_pct,p_Hightech_exports_pct,B_Researchers_per_million,p_Researchers_per_million,B_log_GDP_pc,p_log_GDP_pc
-FE_R&D,665,0.0427,-3.028,0.0273,,,,,,,,
-FE_Patents,630,0.002,,,0.749,0.4542,,,,,,
-FE_Hightech,465,0.0423,,,,,1.93,0.1469,,,,
-FE_Researchers,621,0.0267,,,,,,,-1.726,0.0526,,
-FE_R&D_GDP,665,0.1498,-4.92,0.0001,,,,,,,6.873,0.0012
-FE_Patents_GDP,630,0.1029,,,1.249,0.2157,,,,,5.872,0.0
-FE_Hightech_GDP,465,0.0574,,,,,1.892,0.1481,,,3.523,0.309
-FE_Researchers_GDP,621,0.1817,,,,,,,-4.171,0.0001,8.625,0.0
-FE_GDP,682,0.0524,,,,,,,,,4.441,0.0223
-FE_Full,430,0.1375,-4.444,0.001,0.944,0.648,2.021,0.0887,,,6.618,0.0509
+Indicator,Model,B_tech,p_tech,B_GDP,p_GDP,R2,N
+R&D (% GDP),Pooled OLS,-1.444,0.2422,7.548,0.0000,0.547,665
+R&D (% GDP),Time FE,-1.217,0.3402,7.560,0.0000,0.595,665
+R&D (% GDP),Country FE,-4.920,0.0002,6.873,0.0017,0.150,665
+R&D (% GDP),Two-way FE,-1.885,0.2578,11.491,0.0001,0.197,665
+Patents/million,Pooled OLS,-1.193,0.2026,7.146,0.0000,0.573,630
+Patents/million,Time FE,-1.517,0.1131,7.615,0.0000,0.626,630
+Patents/million,Country FE,1.249,0.2341,5.872,0.0001,0.103,630
+Patents/million,Two-way FE,0.396,0.8256,12.027,0.0001,0.213,630
+High-tech exports,Pooled OLS,0.119,0.9036,6.280,0.0000,0.486,465
+High-tech exports,Time FE,0.042,0.9657,6.403,0.0000,0.535,465
+High-tech exports,Country FE,1.892,0.1682,3.523,0.3326,0.057,465
+High-tech exports,Two-way FE,1.463,0.1383,10.178,0.0144,0.132,465
+Researchers/million,Pooled OLS,-1.269,0.3729,7.548,0.0000,0.557,621
+Researchers/million,Time FE,-0.645,0.6623,7.249,0.0000,0.597,621
+Researchers/million,Country FE,-4.171,0.0001,8.625,0.0000,0.182,621
+Researchers/million,Two-way FE,-1.206,0.5025,11.587,0.0000,0.193,621

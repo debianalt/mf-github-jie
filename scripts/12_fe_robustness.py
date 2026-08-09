@@ -7,6 +7,8 @@ for the extended panel (2000-2021).
 """
 
 import pandas as pd
+import os
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 import numpy as np
 import statsmodels.api as sm
 from scipy import stats
@@ -18,7 +20,7 @@ print("FIXED EFFECTS ROBUSTNESS CHECKS")
 print("=" * 70)
 
 # Load data
-panel = pd.read_csv('../../data/processed/panel_long_tech_mfa.csv')
+panel = pd.read_csv(os.path.join(ROOT, 'data', 'panel_analysis_1996_2021.csv'))
 analysis = panel[(panel['year'] >= 2000) & (panel['year'] <= 2021)].copy()
 print(f"Panel: {len(analysis)} obs, {analysis['iso2_code'].nunique()} countries, "
       f"{analysis['year'].min()}-{analysis['year'].max()}")
@@ -203,9 +205,9 @@ for tech_var, tech_label in tech_indicators:
 # Save results
 # ============================================================================
 results_df = pd.DataFrame(results)
-results_df.to_csv('table3_fe_robustness.csv', index=False)
+results_df.to_csv(os.path.join(ROOT, 'output', 'table_fe_robustness.csv'), index=False)
 print(f"\n{'=' * 70}")
-print("Results saved to: table3_fe_robustness.csv")
+print("Results saved to: output/table_fe_robustness.csv")
 print(f"{'=' * 70}")
 
 # Summary table
