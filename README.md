@@ -196,8 +196,8 @@ MIT License - See LICENSE file
 If you use these materials, please cite:
 
 ```
-Gomez, R. E. (2026). Does Technology Drive Dematerialisation? Software Complexity,
-Income, and Material Footprint across EU-27 and MERCOSUR-4. Journal of Industrial Ecology.
+Gómez, R. E., & Miño, M. G. (2026). Does Technology Drive Dematerialisation? Software
+Complexity, Income, and Material Footprint across EU-27 and MERCOSUR-4. Journal of Industrial Ecology.
 ```
 
-**Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18612284.svg)](https://doi.org/10.5281/zenodo.18612284)
+**Zenodo DOI:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18610040.svg)](https://doi.org/10.5281/zenodo.18610040)
